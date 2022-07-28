@@ -3,9 +3,9 @@
 }
 
 .container {
-  margin-top: 150px;
+  margin: 20px auto;
+  position: relative;
   height: 300px;
+  width: 600px;
 
-
-  transform: rotate(90deg);
 }
