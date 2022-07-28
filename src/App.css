@@ -3,9 +3,9 @@
 }
 
 .container {
-  margin: 20px auto;
-  position: relative;
+  margin-top: 150px;
   height: 300px;
-  width: 600px;
-  overflow: hidden;
+
+
+  transform: rotate(90deg);
 }

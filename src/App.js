@@ -6,15 +6,12 @@ import './App.css';
 import MindARViewer from './mindar-viewer';
 
 function App() {
-  const [started, setStarted] = useState(false);
+  const [started, setStarted] = useState(true);
   return (
     <div className="App">
-      <h1>Example React component with <a href="https://github.com/hiukim/mind-ar-js" target="_blank">MindAR</a></h1>
 
-      <div>
-	{!started && <button onClick={() => {setStarted(true)}}>Start</button>}
-	{started && <button onClick={() => {setStarted(false)}}>Stop</button>}
-      </div>
+
+
 
       {started && (
 	<div className="container">
