@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import anton from './anton.glb'
+
 
 export default () => {
   const sceneRef = useRef(null);
@@ -19,7 +19,7 @@ export default () => {
     <a-scene ref={sceneRef} mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/Andrewdddobusiness/ar-project/targets.mind; autoStart: false; uiLoading: no; uiError: no; uiScanning: no;" color-space="sRGB" embedded renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
 
-	<a-asset-item id="avatarModel" src="https://cdn.jsdelivr.net/gh/Andrewdddobusiness/ar-project/anton.glb"></a-asset-item>
+	<a-asset-item id="avatarModel" src="https://cdn.jsdelivr.net/gh/Andrewdddobusiness/ar-project/anton-1.glb"></a-asset-item>
       </a-assets>
 
       <a-camera id="camera" position="0 0 0" look-controls="enabled: false"></a-camera>
